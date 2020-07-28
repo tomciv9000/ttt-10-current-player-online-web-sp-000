@@ -3,7 +3,7 @@ def turn_count(board)
   board.each do |space|
     space != " " ? count += 1 : nil
   end
-  return count
+   count
 end
 
 def current_player
